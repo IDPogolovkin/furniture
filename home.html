@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-lightbulb"></i> furni </a>
+
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <!-- <div id="search-btn" class="fas fa-search"></div> -->
+        <!-- <div id="cart-btn" class="fas fa-shopping-cart"></div> -->
+        <div id="login-btn" class="fas fa-envelope"></div>
+    </div>
+
+</header>
+
+<!-- header section ends  -->
+
+<!-- closer btn  -->
+
+<div id="closer" class="fas fa-times"></div>
+
+<!-- navbar  -->
+
+<nav class="navbar">
+    <a href="home.html">Главная</a>
+    <a href="shop.html">Магазин</a>
+    <!-- <a href="about.html">about</a> -->
+    <a href="team.html">Команда</a>
+    <a href="blog.html">Блог</a>
+</nav>
+
+<!-- shopping cart  -->
+
+
+<!-- login form  -->
+
+<div class="login-form">
+
+    <form action="">
+        <h3>Оставьте заявку</h3>
+        <input type="text" placeholder="Ваше имя" class="box">
+        <input type="text" placeholder="Ваш телефон" class="box">
+        <!-- <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div> -->
+        <input type="submit" value="Отправить" class="btn">
+        <!-- <p>forget password? <a href="#">click here</a></p> -->
+        <p>После отправки заявки наши менеджеры свяжутся с вами в течение 15 минут</p>
+        <!-- <p>don't have an account? <a href="#">create now</a></p> -->
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home">
+
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>новое поступление</span>
+                <h3>Лучшая мебель</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quisquam, magnam enim sed debitis perspiciatis.</p>
+                <a href="#" class="btn">Купить сейчас</a>
+            </div>
+            <div class="image">
+                <img src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>мы ценим</span>
+                <h3>Дизайн и удобство</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quisquam, magnam enim sed debitis perspiciatis.</p>
+                <a href="#" class="btn">Купить сейча</a>
+            </div>
+            <div class="image">
+                <img src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>и не забываем</span>
+                <h3>окачестве</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quisquam, magnam enim sed debitis perspiciatis.</p>
+                <a href="#" class="btn">Купить сейча</a>
+            </div>
+            <div class="image">
+                <img src="https://images.pexels.com/photos/6956119/pexels-photo-6956119.jpeg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+
+<h1 class="title" id="hot">  <span>Наши услуги</span> <a href="#"></a> </h1>
+
+<section class="services">
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/serv-1.svg" alt="">
+            <h3>Продажа мебели</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quod.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="box">
+            <img src="image/serv-2.svg" alt="">
+            <h3>Изготовление мебели</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quod.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="box">
+            <img src="image/serv-3.svg" alt="">
+            <h3>24 / 7 поддержка</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quod.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+    </div>
+
+</section>
+
+<h1 class="title" id="hot">  <span>О компании</span> <a href="#"></a> </h1>
+
+<section class="about">
+
+    <div class="image">
+        <img src="image/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>Добро пожаловать в наш магазин</span>
+        <h3>Мы сделаем ваш дом еще более уютным</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officiis, reiciendis veniam incidunt architecto quam velit dolorum exercitationem cum aliquam ab quas dicta dolores ad earum quasis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci totam, nam voluptates quis delectus. Ea quo repudiandae.</p>
+        <a href="#" class="btn">Подробнее</a>
+    </div>
+
+</section>
+
+
+<!-- home section ends -->
+
+<!-- banner section starts  -->
+
+<section class="heading">
+    <h3>Горячие предложения</h3>
+</section>
+
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="image/banner-1.jpg" alt="">
+        <div class="content">
+            <span>limited offer</span>
+            <h3>скидка 50%</h3>
+            <a href="#" class="btn">Купить сейчас</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-2.jpg" alt="">
+        <div class="content">
+            <span>limited offer</span>
+            <h3>скидка 50%</h3>
+            <a href="#" class="btn">Купить сейчас</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-3.jpg" alt="">
+        <div class="content">
+            <span>limited offer</span>
+            <h3>скидка 50%</h3>
+            <a href="#" class="btn">Купить сейчас</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-1.jpg" alt="">
+        <div class="content">
+            <span>limited offer</span>
+            <h3>скидка 50%</h3>
+            <a href="#" class="btn">Купить сейчас</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-2.jpg" alt="">
+        <div class="content">
+            <span>limited offer</span>
+            <h3>скидка 50%</h3>
+            <a href="#" class="btn">Купить сейчас</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-3.jpg" alt="">
+        <div class="content">
+            <span>limited offer</span>
+            <h3>скидка 50%</h3>
+            <a href="#" class="btn">Купить сейчас</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="heading">
+    <h3>Свяжитесь с нами</h3>
+</section>
+
+<div class="contact">
+
+    <form action="">
+        <h3>Наш менеджер вам перезвонит</h3>
+        <span>Ваше имя</span>
+        <input type="text" class="box">
+        <span>Ваш телефон</span>
+        <input type="number" class="box">
+        <span>Ваш email</span>
+        <input type="email" class="box">
+        <span>Напишите комментрий запроса, по желанию</span>
+        <textarea class="box" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Отправить заявку" class="btn">
+    </form>
+
+    <div class="map" id="map"></div>
+
+</div>
+
+<!-- banner section ends -->
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Быстрые ссылки</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> Главная</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> Магазин</a>
+            <a href="team.html"> <i class="fas fa-arrow-right"></i> Команда</a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> Блог</a>
+        </div>
+
+        <div class="box">
+            <h3>Контакты</h3>
+            <a href="https://wa.me/77087505002"> <i class="fas fa-arrow-right"></i> 8-708-750-5002</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> 8-776-134-4060</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> mebel@gmail.com</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> servis@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <h3>Напишите нам здесь</h3>
+            <a href="https://wa.me/77087505002"> <i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="#"> <i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#"> <i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#"> <i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+
+        <div class="box">
+            <h3>Новости</h3>
+            <p>Подпишитесь, чтобы получать уведомления об акциях и новых поступлениях</p>
+            <form action="">
+                <input type="email" name="" placeholder="введите свой email" id="">
+                <input type="submit" value="подписаться" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="credit">
+    by Daniil
+</section>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+    
+<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+        <script type="text/javascript">
+            var map;
+
+            DG.then(function () {
+                map = DG.map('map', {
+                    center: [51.1328, 71.40],
+                    zoom: 15
+                });
+
+                DG.marker([51.1328, 71.40]).addTo(map).bindPopup('Вы кликнули по мне!');
+            });
+        </script>
+
+</body>
+</html>
